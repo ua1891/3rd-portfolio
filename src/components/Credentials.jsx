@@ -63,7 +63,7 @@ export default function Credentials() {
                   <Calendar size={12} /> ACTIVE INTERNSHIP
                 </div>
                 <h4 style={{ fontSize: '1.3rem', fontWeight: 600, marginBottom: '4px' }}>
-                  Frontend Intern
+                  Software Engineering Intern
                 </h4>
                 <p style={{ fontSize: '0.95rem', color: 'var(--accent-cyan)', fontWeight: 500, marginBottom: '12px' }}>
                   NetSol Technologies

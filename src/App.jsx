@@ -28,7 +28,7 @@ export default function App() {
     const timer = setTimeout(() => {
       const el = document.getElementById('playground');
       if (el) {
-        // el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     }, 600);
     return () => clearTimeout(timer);

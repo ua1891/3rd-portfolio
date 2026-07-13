@@ -18,20 +18,7 @@ const LinkedinIcon = (props) => (
 
 export default function Navbar() {
   return (
-    <nav className="glass-panel" style={{
-      position: 'sticky',
-      top: '20px',
-      margin: '0 auto',
-      width: '90%',
-      maxWidth: '1100px',
-      zIndex: 100,
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      padding: '12px 24px',
-      borderRadius: '20px',
-      boxShadow: '0 10px 30px rgba(0,0,0,0.3)',
-    }}>
+    <nav className="navbar-custom glass-panel">
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
         <Terminal style={{ color: 'var(--accent-cyan)' }} size={24} />
         <span style={{
@@ -56,27 +43,27 @@ export default function Navbar() {
       }} className="nav-links">
         <li>
           <a href="#hero" style={linkStyle}>
-            <Cpu size={16} /> Home
+            <Cpu size={16} /> <span>Home</span>
           </a>
         </li>
         <li>
           <a href="#skills" style={linkStyle}>
-            <Cpu size={16} /> Skills
+            <Cpu size={16} /> <span>Skills</span>
           </a>
         </li>
         <li>
           <a href="#projects" style={linkStyle}>
-            <FolderGit2 size={16} /> Projects
+            <FolderGit2 size={16} /> <span>Projects</span>
           </a>
         </li>
         <li>
           <a href="#credentials" style={linkStyle}>
-            <GraduationCap size={16} /> Credentials
+            <GraduationCap size={16} /> <span>Credentials</span>
           </a>
         </li>
         <li>
           <a href="#playground" style={linkStyle}>
-            <Terminal size={16} /> Playground
+            <Terminal size={16} /> <span>Playground</span>
           </a>
         </li>
       </ul>

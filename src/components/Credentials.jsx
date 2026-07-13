@@ -16,11 +16,7 @@ export default function Credentials() {
           A timeline of my professional roles, academic accomplishments, and certified competencies.
         </p>
 
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
-          gap: '40px',
-        }} className="credentials-grid">
+        <div className="credentials-grid">
 
           {/* Experience side */}
           <div>

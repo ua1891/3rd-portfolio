@@ -58,11 +58,7 @@ export default function Projects() {
           Explore a selection of full-stack systems, desktop applications, and algorithmic simulations created by Usman.
         </p>
 
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-          gap: '30px',
-        }}>
+        <div className="projects-grid">
           {projects.map((proj, idx) => (
             <motion.div
               key={idx}

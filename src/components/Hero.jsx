@@ -14,12 +14,7 @@ export default function Hero() {
       <div className="glow-orb glow-orb-1" />
       <div className="glow-orb glow-orb-2" />
 
-      <div className="container" style={{
-        display: 'grid',
-        gridTemplateColumns: '1.2fr 0.8fr',
-        gap: '40px',
-        alignItems: 'center',
-      }}>
+      <div className="container hero-grid">
         {/* Text Area */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}

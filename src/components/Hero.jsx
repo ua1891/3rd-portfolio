@@ -60,7 +60,7 @@ export default function Hero() {
             marginBottom: '24px',
             textAlign: 'left',
           }}>
-            Computer Science Student | Full Stack Developer
+            Intern @ NetSol Technologies | Full Stack Developer
           </h2>
 
           <p style={{

@@ -69,7 +69,7 @@ export default function Background3D() {
       }
     }
 
-    const particleCount = 50;
+    const particleCount = 180;
     const particles = Array.from({ length: particleCount }, () => new Particle());
 
     let mouseX = 0;
